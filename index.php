@@ -1,6 +1,5 @@
 <?php
     /*
-     方倍工作室
      CopyRight 2014 All Rights Reserved
      */
     
@@ -64,7 +63,7 @@
             switch ($object->Event)
             {
                 case "subscribe":
-                    $content = "欢迎关注方倍工作室 ";
+                    $content = "欢迎关注Automator! ";
                     break;
             }
             $result = $this->transmitText($object, $content);
